@@ -11,10 +11,10 @@ public class Main {
      numero = LeitorScanner.nextInt();
 
      if(numero >=100 && numero <= 200){
-         System.out.println("o número está no intervalo");
+         System.out.println("o número está no intervalo.");
 
      }else{
-         System.out.println("o número não está no intervalo");
+         System.out.println("o número não está no intervalo.");
      }
     }
 }
