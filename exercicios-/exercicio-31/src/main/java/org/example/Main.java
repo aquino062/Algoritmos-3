@@ -22,7 +22,6 @@ public class Main {
         System.out.println("Digite o simbolo da operação aritmetica: x + - / ");
         c = scanner.next();
 
-
         if (c.equals("+")) {
             result = a + b;
         } else if (c.equals("-")) {
@@ -30,8 +29,8 @@ public class Main {
         } else if (c.equals("x") || c.equals("X")) {
             result = a * b;
         } else if (c.equals("/")) {
-            if ( b == 0) {
-                System.out.println("não é possivel dividir por zero");
+            if (b == 0) {
+                System.out.println("Não é possivel dividir por zero");
             } else {
                 result = a / b;
 
@@ -40,6 +39,6 @@ public class Main {
             System.out.println("operação inválida!");
         }
 
-        System.out.println( "resultado: "+ result);
+        System.out.println("Resultado: " + result);
     }
 }
